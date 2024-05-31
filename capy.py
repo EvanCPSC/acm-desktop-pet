@@ -76,7 +76,7 @@ def update(cycle,check,event_number,x):
         cycle , event_number = gif_work(cycle,walk_negative,event_number,1,9)
         x -= -3
 
-    window.geometry('100x100+'+str(x)+'+1050')
+    window.geometry('50x50+'+str(x)+'+200')
     label.configure(image=frame)
     window.after(1,event,cycle,check,event_number,x)
 window = tk.Tk()
