@@ -10,7 +10,7 @@ sleep_num = [10,11,12,13,15]
 walk_left = [6,7]
 walk_right = [8,9]
 event_number = random.randrange(1,3,1)
-impath = 'C:\\Users\\fx770\\Desktop\\Project\\Buddy\\image\\' 
+impath = 'assets/' 
 #transfer random no. to event
 def event(cycle,check,event_number,x):
     if event_number in idle_num:
